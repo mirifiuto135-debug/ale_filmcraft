@@ -255,6 +255,8 @@ cargo run --release -p filmcraft-cli -- commands           # list every engine c
 cargo run --release -p filmcraft-cli -- mcp                # MCP server (headless)
 ```
 
+A worked example of driving it from a pipeline: [`integrations/assemble/`](integrations/assemble/README.md) turns generated clips and a scene list (titles, narration, captions, dissolves) into an MP4 through `filmcraft-cli mcp`.
+
 Japanese text in the interface and in titles comes from [craft-fonts](https://github.com/storytold/craft-fonts), an optional build input (release builds always include it; without it FilmCraft uses its own and the system's fonts):
 
 ```sh

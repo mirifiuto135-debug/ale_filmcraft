@@ -1,0 +1,19 @@
+{
+  "output": "movie.mp4",
+  "project": "movie.fcproj",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "title": "A Short Film",
+  "title_seconds": 3,
+  "end_title": "The End",
+  "transition": {"effect": "Cross Dissolve", "frames": 12},
+  "narration": {"voice": "Heart", "pace": 1.0},
+  "captions": "burn",
+  "fit": "speed",
+  "scenes": [
+    {"clip": "clips/scene_01.mp4", "title": "Chapter One", "narration": "The village slept under a sky full of stars."},
+    {"clip": "clips/scene_02.mp4", "narration": "Only the lighthouse keeper was awake, watching the sea. [pause 500ms] Something was coming."},
+    {"clip": "clips/scene_03_0001.png", "narration": "By morning, the storm had passed."}
+  ]
+}
